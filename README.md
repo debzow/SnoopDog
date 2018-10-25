@@ -1,24 +1,31 @@
-# README
+# Création de SnoopDog
+Contributeurs DAVIDGERARD & HERVELEE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Après téléchargement du repo, lancer**
 
-Things you may want to cover:
+```bundle install```  
+```rails db:migrate```  
+```rails db:seed```  
 
-* Ruby version
+Accès à la console pour vérifier la structure de la BDD
+```rails console```
 
-* System dependencies
 
-* Configuration
+## Résumé du projet
+-Creation d'un projet rails manipulation base de db 1-->N & N-->N
 
-* Database creation
+## Structure de la BDD
 
-* Database initialization
+### Models 
+city
+dog
+dogsitter
+stroll
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### Colonnes de chaque table
+> ```timestamps``` est présent dans chaque table sous la forme  
+> ```t.datetime "created_at", null: false```  
+> ```t.datetime "updated_at", null: false```   
 
-* Deployment instructions
-
-* ...
+   
